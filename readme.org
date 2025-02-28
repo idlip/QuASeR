@@ -1,0 +1,48 @@
+#+title: Optimizing Denovo Genome Assembly using Hybrid Quantum-Classical Approach
+
+Based on *QuASeR: Quantum Accelerated De-Novo DNA Sequence Reconstruction* (https://doi.org/10.1371/journal.pone.0249850)
+
+Taking this proof of concept ahead, as quantum buzz has been rising thanks to chip makers promising with *big bold claims*
+Like nvidia, google and recent microsoft.
+
+Soon by few years +not decades+, we might see ready to use applicaiton of quantum for real world complex problems
+Like understanding nature, climate, cryptography... and breaking many questions
+
+--------
+
+* Install
+Suggested and easy way is to utilize =uv= (https://github.com/astral-sh/uv) python package manager.
+Install it via pip or distro package manager or [[https://github.com/astral-sh/uv#installation][refer]] here
+
+#+begin_src bash
+  # cd <dir> # to wherever you prefer
+  git clone --depth=1 https://github.com/idlip/QuASeR quaser
+  cd quaser
+  uv self update
+  uv init .
+  uv add dimod numpy matplotlib dwave-ocean-sdk
+#+end_src
+
+You should be able to run python or call files like so
+#+begin_src bash
+  uv run python3 # for python IDLE
+  uv run python3 assemble.py
+#+end_src
+
+
+* About
+
+The related paper *Genome assembly using quantum and quantum-inspired annealing* (https://doi.org/10.1038/s41598-021-88321-5) although done separately without their interference.
+
+This appraoch tries to solve the NP hard problem of assembly DNA reads (strings) using =TSP=, =hamiltonian= path via =QUBO= matrix and trying to solve the =ising= matrix.
+
+The ising matrix provides the spin states to utilize it for hamiltonain energy calculation, thus further implementation to trace the path with minimal energy must be accounted.
+
+Although the above method does have finicky problem such as =numpy= with more array size gets memory allocation error.
+
+Yet this proof-of-concept is not yet standard to utilize it for genome assembly. This provides a state-of-art solution to enrich further enhancement and understanding
+
+
+- The work so far depicts the =BQM= (binary Quadratic model) solution for the Ising Hamiltonian
+
+- Note: Need to understand lot of physics to go ahead further
