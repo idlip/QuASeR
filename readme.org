@@ -20,7 +20,8 @@ Install it via pip or distro package manager or [[https://github.com/astral-sh/u
   cd quaser
   uv self update
   uv init .
-  uv add dimod numpy matplotlib dwave-ocean-sdk
+  uv add dimod numpy matplotlib dwave-ocean-sdk basedpyright ruff
+  # desc: ^quant ^maths ^plotting  ^dwave system     ^lsp    ^lint/format
 #+end_src
 
 You should be able to run python or call files like so
