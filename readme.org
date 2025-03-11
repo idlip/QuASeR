@@ -47,3 +47,32 @@ Yet this proof-of-concept is not yet standard to utilize it for genome assembly.
 - The work so far depicts the =BQM= (binary Quadratic model) solution for the Ising Hamiltonian
 
 - Note: Need to understand lot of physics to go ahead further
+
+** Resources
+- [[https://pmc.ncbi.nlm.nih.gov/articles/PMC8041170/#ack1][QuASeR: Quantum Accelerated de novo DNA sequence reconstruction]] ([[https://doi.org/10.1371/journal.pone.0249850][doi]]) ([[https://github.com/prince-ph0en1x/QuASeR][code]])
+- [[https://pmc.ncbi.nlm.nih.gov/articles/PMC7913993/][Spin Hamiltonians in Magnets: Theories and Computations]] ([[https://doi.org/10.3390/molecules26040803][doi]])
+- [[https://academic.oup.com/bib/article/25/5/bbae391/7733456?login=false][Quantum computing in bioinformatics: a systematic review mapping]] ([[https://doi.org/10.1093/bib/bbae391][doi]])
+- [[https://pmc.ncbi.nlm.nih.gov/articles/PMC8222255/#Sec10][Genome assembly using quantum and quantum-inspired annealing]] ([[https://doi.org/10.1038/s41598-021-88321-5][doi]])
+- [[https://www.sciencedirect.com/science/article/abs/pii/S0303264723002125][Quantum algorithm for de novo DNA sequence assembly based on quantum walks on graphs]] ([[https://doi.org/10.1016/j.biosystems.2023.105037][doi]])
+- [[https://www.nature.com/articles/nmeth.1935][De novo genome assembly: what every biologist should know]] ([[https://doi.org/10.1038/nmeth.1935][doi]])
+- [[https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02527-4][Accurate long-read de novo assembly evaluation with Inspector]] ([[https://doi.org/10.1186/s13059-021-02527-4][doi]])
+- [[https://pmc.ncbi.nlm.nih.gov/articles/PMC5531759/][Why are de Bruijn graphs useful for genome assembly?]] ([[https://doi.org/10.1038/nbt.2023][doi]])
+- [[https://www.sciencedirect.com/science/article/abs/pii/S0168952522002530][A proposed metric set for evaluation of genome assembly quality]] ([[https://doi.org/10.1016/j.tig.2022.10.005][doi]])
+- [[https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04661-7#Sec12][Algorithm for DNA sequence assembly by quantum annealing]] ([[https://doi.org/10.1186/s12859-022-04661-7][doi]])
+- [[https://davidbkemp.github.io/QuantumComputingArticle/][An Interactive Introduction To Quantum Computing]]
+- [[https://perceval.quandela.net/docs/v0.9/notebooks/QUBO.html][The shortest path problem using QUBO]]
+- [[https://scribe.rip/@shoaib6174/how-to-solve-qubo-problems-using-qiskit-f4eab6cc3061][How to solve QUBO problems using Qiskit]]
+- [[https://github.com/rm1113/cat_with_calculator][quantum computing learning resources]]
+- [[https://github.com/jtiosue/qubovert][qubovert to solve spin forms - github]]
+- [[https://github.com/dwavesystems/dwave-ocean-sdk][dwave ocean sdk - github]]
+- [[https://pennylane.ai/qml/demos/tutorial_QUBO][pennylane article on QUBO]]
+- [[https://stanford.edu/~jeffjar/statmech/intro4.html][stanford intro on Ising model]]
+- [[https://learning.quantum.ibm.com/tutorial/quantum-approximate-optimization-algorithm][Ibm quantum material on QAOA]]
+- [[https://quantumcomputing.stackexchange.com/search?q=ising+to+hamiltonian][quantum computing stack exchange]]
+- [[https://docs.dwavesys.com/docs/latest/c_solver_parameters.html][dwave system solver]]
+- [[https://arxiv.org/abs/1106.1445][From Classical to Quantum Shannon Theory]]
+
+** Acknowledgement
+
+Thanks to Dr. Vidya Niranjan lab and Dr Akshay uttarkar for their support and guidance in taking up this project.
+Kudos to QE Lab and Aritra Sarkar for building the proof of concept for denovo genome assembly in quantum simulation, and providing the source code for QuASeR.
